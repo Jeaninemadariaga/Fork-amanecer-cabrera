@@ -1,14 +1,16 @@
 body {
   font-family: "Raleway", sans-serif;
 }
-nav{
-  background-image:url("https://images.pexels.com/photos/9665178/pexels-photo-9665178.jpeg?cs=srgb&dl=pexels-cottonbro-studio-9665178.jpg&fm=jpg") ;
+
+nav {
+  background-image: url("https://images.pexels.com/photos/9665178/pexels-photo-9665178.jpeg?cs=srgb&dl=pexels-cottonbro-studio-9665178.jpg&fm=jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: left;
   height: 12vh;
 }
-.video-container{
+
+.video-container {
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -21,110 +23,90 @@ nav{
   min-height: 100vh;
   min-width: 100vw;
 }
-.video-container h3,i{
-  margin:2rem;
+
+.video-container h3,
+i {
+  margin: 2rem;
   width: 30%;
   padding: 0;
   display: inline-block;
-  font-size:3rem ;
+  font-size: 3rem;
 }
-.video-container h1{
-  margin-right:2rem;
+
+.video-container h1 {
+  margin-right: 2rem;
   margin-bottom: 2rem;
   width: 100%;
-  font-size:3rem ;
+  font-size: 3rem;
 }
-.video-container p{
+
+.video-container p {
   text-align: center;
   width: 80%;
   padding-bottom: 1rem;
-  font-size:1.25rem ;
+  font-size: 1.25rem;
   margin-left: 4rem;
   padding-left: 5rem;
 }
 
-
-.video-bg{
+.video-bg {
   position: absolute;
   top: 0;
   left: 0;
-  min-width:100%;
+  min-width: 100%;
   min-height: 100%;
   z-index: -1;
-
-
-
 }
 
-
-
-
-
 /* Hero Section */
-
 #Hero-Section {
   background-image: url("https://c4.wallpaperflare.com/wallpaper/810/211/721/purple-violet-css-code-wallpaper-preview.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  
 }
 
-
-
-
-
 /* Mis trabajos */
-
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  
 }
-.card{
+
+.card {
   border: none;
 }
 
 /* Contacto */
-
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
 }
 
-#Mis-trabajos{
-
+#Mis-trabajos {
   background: hsla(282, 71%, 76%, 1);
-
   background: linear-gradient(90deg, hsla(282, 71%, 76%, 1) 0%, hsla(227, 92%, 76%, 1) 100%);
-
   background: -moz-linear-gradient(90deg, hsla(282, 71%, 76%, 1) 0%, hsla(227, 92%, 76%, 1) 100%);
-
   background: -webkit-linear-gradient(90deg, hsla(282, 71%, 76%, 1) 0%, hsla(227, 92%, 76%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D395ED", endColorstr="#89A2FA", GradientType=1 );
-  
-  
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#D395ED", endColorstr="#89A2FA", GradientType=1);
 }
-.boton{
+
+.boton {
   background-color: #dfa4a4;
   text-decoration: none;
-  
-  
-}
-.boton a{
-  text-decoration:none;
-  color: #fff;
-  
 }
 
-footer{
-  background-image:url("https://images.pexels.com/photos/9665178/pexels-photo-9665178.jpeg?cs=srgb&dl=pexels-cottonbro-studio-9665178.jpg&fm=jpg") ;
+.boton a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  background-image: url("https://images.pexels.com/photos/9665178/pexels-photo-9665178.jpeg?cs=srgb&dl=pexels-cottonbro-studio-9665178.jpg&fm=jpg");
   background-repeat: no-repeat;
-  background-size:cover;
-  background-position: left; 
+  background-size: cover;
+  background-position: left;
 }
 
 @media (max-width: 768px) {
@@ -132,8 +114,7 @@ footer{
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
